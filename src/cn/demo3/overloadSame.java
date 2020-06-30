@@ -1,7 +1,10 @@
 package cn.demo3;
-
+import cn.demo4.mergeArray;
 public class overloadSame {
     public static void main(String[] args) {
+        //mergeArray ma=new mergeArray();
+        //System.out.println(ma);
+
         double a=100;
         double b=100;
         System.out.println(isSame(a,b));
