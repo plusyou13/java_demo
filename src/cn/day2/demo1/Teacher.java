@@ -4,7 +4,8 @@ package cn.day2.demo1;
  */
 public class Teacher extends Employee{
     int id=200;
-
+    //安全检测作用，看看是不是正确的重写（覆盖重写）
+    @Override
     public void method2(){
         System.out.println("子类方法执行");
     }
