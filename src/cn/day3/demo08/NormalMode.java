@@ -1,6 +1,6 @@
 package cn.day3.demo08;
 
-import cn.itcast.day11.red.OpenMode;
+import cn.day3.red.OpenMode;
 
 import java.util.ArrayList;
 

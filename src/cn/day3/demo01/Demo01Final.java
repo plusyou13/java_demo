@@ -42,6 +42,8 @@ public class Demo01Final {
 
         final Student stu2 = new Student("高圆圆");
         // 错误写法！final的引用类型变量，其中的地址不可改变
+        //final的引用类型变量，其中的地址不可改变
+        //final的引用类型变量，其中的地址不可改变
 //        stu2 = new Student("赵又廷");
         System.out.println(stu2.getName()); // 高圆圆
         stu2.setName("高圆圆圆圆圆圆");

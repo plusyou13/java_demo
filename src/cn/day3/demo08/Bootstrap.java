@@ -1,6 +1,6 @@
 package cn.day3.demo08;
 
-import cn.itcast.day11.red.OpenMode;
+import cn.day3.red.OpenMode;
 
 /*
 场景说明：
@@ -18,7 +18,7 @@ import cn.itcast.day11.red.OpenMode;
 public class Bootstrap {
 
     public static void main(String[] args) {
-        MyRed red = new MyRed("传智播客双元课程");
+        MyRed red = new MyRed("红包");
         // 设置群主名称
         red.setOwnerName("王思聪");
 

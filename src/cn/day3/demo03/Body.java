@@ -9,7 +9,6 @@ public class Body { // 外部类
             System.out.println("心脏跳动：蹦蹦蹦！");
             System.out.println("我叫：" + name); // 正确写法！
         }
-
     }
 
     // 外部类的成员变量
