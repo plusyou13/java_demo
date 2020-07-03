@@ -52,12 +52,15 @@ public class Demo01Iterator {
             所以我们可以使用循环优化
             不知道集合中有多少元素,使用while循环
             循环结束的条件,hasNext方法返回false
+
+            两种循环方式：
          */
         while(it.hasNext()){
             String e = it.next();
             System.out.println(e);
         }
         System.out.println("----------------------");
+        //next() 返回迭代的下一个元素。取出。，所以不用++
         for(Iterator<String> it2 = coll.iterator();it2.hasNext();){
             String e = it2.next();
             System.out.println(e);

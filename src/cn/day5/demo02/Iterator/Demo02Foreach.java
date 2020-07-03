@@ -8,7 +8,7 @@ import java.util.ArrayList;
     Collection<E>extends Iterable<E>:所有的单列集合都可以使用增强for
     public interface Iterable<T>实现这个接口允许对象成为 "foreach" 语句的目标。
 
-    增强for循环:用来遍历集合和数组
+    增强for循环:用来遍历集合和数组,集合和数组,集合和数组,集合和数组,集合和数组
 
     格式:
         for(集合/数组的数据类型 变量名: 集合名/数组名){
