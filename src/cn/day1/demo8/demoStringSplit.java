@@ -35,7 +35,7 @@ public class demoStringSplit {
         System.out.println("======================");
         String str4="aaa.bbb.ccc";
         String[] array4=str4.split("\\.");
-        System.out.println(array4.length);//0
+        System.out.println(array4.length);//3
         for (int i = 0; i < array4.length; i++) {
             System.out.println(array4[i]);
 

@@ -14,6 +14,7 @@ public class Person {
         System.out.println("构造方法执行");
     }
     static {
+        methodStatic();
         System.out.println("静态代码执行");
     }
 

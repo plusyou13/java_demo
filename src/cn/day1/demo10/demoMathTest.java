@@ -6,7 +6,7 @@ Math.ceil 返回double值
  */
 public class demoMathTest {
     public static void main(String[] args) {
-        // 定义最小值
+// 定义最小值
         double min = -10.8;
 // 定义最大值
         double max = 5.9;
