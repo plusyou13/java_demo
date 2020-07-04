@@ -4,7 +4,9 @@ package cn.day5.demo03.Generic;
     public interface Iterator<E> {
         E next();
     }
-    Scanner类实现了Iterator接口,并指定接口的泛型为String,所以重写的next方法泛型默认就是String
+    Scanner类实现了Iterator接口,并指定接口的泛型为String,
+    所以重写的next方法泛型默认就是String
+
     public final class Scanner implements Iterator<String>{
         public String next() {}
     }

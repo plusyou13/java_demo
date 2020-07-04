@@ -6,6 +6,8 @@ import java.util.Iterator;
 public class Demo01Generic {
     public static void main(String[] args) {
         show02();
+        //show01();
+
     }
 
     /*

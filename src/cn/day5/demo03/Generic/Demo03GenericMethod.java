@@ -15,7 +15,7 @@ public class Demo03GenericMethod {
         gm.method01("abc");
         gm.method01(8.8);
         gm.method01(true);
-
+        //不建议这样用；
         gm.method02("静态方法,不建议创建对象使用");
 
         //静态方法,通过类名.方法名(参数)可以直接使用

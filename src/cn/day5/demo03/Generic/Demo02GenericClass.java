@@ -12,6 +12,8 @@ public class Demo02GenericClass {
         gc2.setName(1);
 
         Integer name = gc2.getName();
+        //自动拆箱
+        //int name = gc2.getName();
         System.out.println(name);
 
         //创建GenericClass对象,泛型使用String类型

@@ -30,7 +30,9 @@ public class Demo05Generic {
         定义一个方法,能遍历所有类型的ArrayList集合
         这时候我们不知道ArrayList集合使用什么数据类型,可以泛型的通配符?来接收数据类型
         注意:
-            泛型没有继承概念的
+            泛型没有继承概念的，
+            泛型没有继承概念的，
+            泛型没有继承概念的，
      */
     public static void printArray(ArrayList<?> list){
         //使用迭代器遍历集合
