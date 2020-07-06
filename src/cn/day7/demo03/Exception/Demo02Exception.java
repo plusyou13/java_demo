@@ -1,6 +1,8 @@
 package cn.day7.demo03.Exception;
 /*
     如果finally有return语句,永远返回finally中的结果,避免该情况.
+    如果finally有return语句,永远返回finally中的结果,避免该情况.
+    如果finally有return语句,永远返回finally中的结果,避免该情况.
  */
 public class Demo02Exception {
     public static void main(String[] args) {

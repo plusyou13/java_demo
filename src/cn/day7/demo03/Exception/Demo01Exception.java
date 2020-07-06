@@ -42,7 +42,9 @@ public class Demo01Exception {
         }*/
 
         /*
-            一个try多个catch注意事项:
+            一个try多个catch注意事项:（子类对象赋值给父类，就产生多态。。。。）
+                catch里边定义的异常变量,如果有子父类关系,那么子类的异常变量必须写在上边,否则就会报错
+                catch里边定义的异常变量,如果有子父类关系,那么子类的异常变量必须写在上边,否则就会报错
                 catch里边定义的异常变量,如果有子父类关系,那么子类的异常变量必须写在上边,否则就会报错
                 ArrayIndexOutOfBoundsException extends IndexOutOfBoundsException
          */
@@ -58,12 +60,13 @@ public class Demo01Exception {
         }*/
 
         //3. 多个异常一次捕获一次处理。
+
         /*try {
             int[] arr = {1,2,3};
             //System.out.println(arr[3]);//ArrayIndexOutOfBoundsException: 3
             List<Integer> list = List.of(1, 2, 3);
             System.out.println(list.get(3));//IndexOutOfBoundsException: Index 3 out-of-bounds for length 3
-        }catch (Exception e){
+        }catch (Exception e){//（父类，基类）
             System.out.println(e);
         }*/
 

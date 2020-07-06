@@ -5,6 +5,8 @@ package cn.day7.demo01.Exception;
         可以使用throw关键字在指定的方法中抛出指定的异常
     使用格式:
         throw new xxxException("异常产生的原因");
+        throw new xxxException("异常产生的原因");
+        throw new xxxException("异常产生的原因");
     注意:
         1.throw关键字必须写在方法的内部
         2.throw关键字后边new的对象必须是Exception或者Exception的子类对象
@@ -41,6 +43,8 @@ public class Demo03Throw {
         }
 
         /*
+            运行期异常不用处理，直接交给jvm
+
             我们可以对传递过来的参数index进行合法性校验
             如果index的范围不在数组的索引范围内
             那么我们就抛出数组索引越界异常,告知方法的调用者"传递的索引超出了数组的使用范围"

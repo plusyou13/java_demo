@@ -14,9 +14,13 @@ import java.util.Objects;
  */
 public class Demo04Objects {
     public static void main(String[] args) {
+        Demo02Exception de=new Demo02Exception();
+        method(de);
         method(null);
     }
 
+
+//查看指定引用对象不是null
     public static void method(Object obj){
         //对传递过来的参数进行合法性判断,判断是否为null
         /*if(obj == null){

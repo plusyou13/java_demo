@@ -7,13 +7,18 @@ import java.io.IOException;
     throws关键字:异常处理的第一种方式,交给别人处理
     作用:
         当方法内部抛出异常对象的时候,那么我们就必须处理这个异常对象
-        可以使用throws关键字处理异常对象,会把异常对象声明抛出给方法的调用者处理(自己不处理,给别人处理),最终交给JVM处理-->中断处理
+        可以使用throws关键字处理异常对象,会把异常对象声明抛出给方法的调用者处理
+        (自己不处理,给别人处理),最终交给JVM处理-->中断处理
+
+
     使用格式:在方法声明时使用
         修饰符 返回值类型 方法名(参数列表) throws AAAExcepiton,BBBExcepiton...{
             throw new AAAExcepiton("产生原因");
             throw new BBBExcepiton("产生原因");
             ...
         }
+
+
      注意:
         1.throws关键字必须写在方法声明处
         2.throws关键字后边声明的异常必须是Exception或者是Exception的子类

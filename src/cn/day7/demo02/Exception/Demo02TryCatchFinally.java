@@ -17,6 +17,8 @@ import java.io.IOException;
         }finally{
             无论是否出现异常都会执行
         }
+
+
      注意:
         1.finally不能单独使用,必须和try一起使用
         2.finally一般用于资源释放(资源回收),无论程序是否出现异常,最后都要资源释放(IO)
