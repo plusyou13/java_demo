@@ -15,7 +15,7 @@ public class JDBCUtils {
     private static String password;
     private static String driver;
     /**
-     * 文件的读取，只需要读取一次即可拿到这些值。使用静态代码块
+     * 文件的读取，只需要读取一次即可拿到这些值。使用静态代码块,只执行一次。
      */
     static{
         //读取资源文件，获取值。
@@ -26,8 +26,11 @@ public class JDBCUtils {
 
             //获取src路径下的文件的方式--->ClassLoader 类加载器
             ClassLoader classLoader = JDBCUtils.class.getClassLoader();
-            URL res  = classLoader.getResource("jdbc.properties");
+            //统一资源定位符
+            URL res  = classLoader.getResource("pro.properties");
             String path = res.getPath();
+
+
            // System.out.println(path);///D:/IdeaProjects/itcast/out/production/day04_jdbc/jdbc.properties
             //2. 加载文件
            // pro.load(new FileReader("D:\\IdeaProjects\\itcast\\day04_jdbc\\src\\jdbc.properties"));
@@ -82,7 +85,7 @@ public class JDBCUtils {
 
 
     /**
-     * 释放资源
+     * 释放资源,重载形式
      * @param stmt
      * @param conn
      */

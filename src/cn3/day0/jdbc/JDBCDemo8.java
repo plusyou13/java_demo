@@ -13,7 +13,7 @@ import java.util.List;
 public class JDBCDemo8 {
 
     public static void main(String[] args) {
-        List<Emp> list = new JDBCDemo8().findAll();
+        List<Emp> list = new JDBCDemo8().findAll2();
         for (Object object : list) {
             System.out.println(object);
         }
