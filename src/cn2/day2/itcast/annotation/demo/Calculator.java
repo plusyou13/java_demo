@@ -9,6 +9,7 @@ public class Calculator {
     //加法
     @Check
     public void add(){
+        //空指针异常
         String str = null;
         str.toString();
         System.out.println("1 + 0 =" + (1 + 0));

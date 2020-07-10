@@ -4,7 +4,6 @@ package cn2.day2.itcast.annotation.demo;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
@@ -24,6 +23,7 @@ public class TestCheck {
         Method[] methods = cls.getMethods();
 
         int number = 0;//出现异常的次数
+        //文件流对象
         BufferedWriter bw = new BufferedWriter(new FileWriter("bug.txt"));
 
 
@@ -53,7 +53,7 @@ public class TestCheck {
         }
 
         bw.write("本次测试一共出现 "+number+" 次异常");
-
+        //刷新
         bw.flush();
         bw.close();
 
