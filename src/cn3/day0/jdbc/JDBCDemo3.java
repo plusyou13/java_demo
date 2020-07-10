@@ -16,7 +16,7 @@ public class JDBCDemo3 {
             //1. 注册驱动
             Class.forName("com.mysql.jdbc.Driver");
             //2.获取连接对象
-            conn = DriverManager.getConnection("jdbc:mysql:///db3", "root", "root");
+            conn = DriverManager.getConnection("jdbc:mysql:///demo2", "root", "1123");
             //3.定义sql
             String sql  = "update account set balance = 1500 where id = 3";
             //4.获取执行sql对象

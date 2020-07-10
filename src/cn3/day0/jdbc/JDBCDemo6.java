@@ -14,7 +14,8 @@ public class JDBCDemo6 {
             //1. 注册驱动
             Class.forName("com.mysql.jdbc.Driver");
             //2.获取连接对象
-            conn = DriverManager.getConnection("jdbc:mysql:///db3", "root", "root");
+            conn = DriverManager.getConnection("jdbc:mysql:///demo2", "root", "1123");
+
             //3.定义sql
             String sql  = "select * from account";
             //4.获取执行sql对象
@@ -40,7 +41,7 @@ public class JDBCDemo6 {
             double balance2 = rs.getDouble(3);
 
             System.out.println(id2 + "---" + name2 + "---" + balance2);
-
+//          未知有几条数据，先要if判断一下。
             //6.1 让游标向下移动一行
             rs.next();
             //6.2 获取数据

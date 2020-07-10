@@ -10,15 +10,17 @@ import java.sql.Statement;
  */
 public class JDBCDemo2 {
     public static void main(String[] args) {
+        // 提升作用域范围
         Statement stmt = null;
         Connection conn = null;
         try {
+            // 作用域
             //1. 注册驱动
             Class.forName("com.mysql.jdbc.Driver");
             //2. 定义sql
-            String sql = "insert into account values(null,'王五',3000)";
+            String sql = "insert into account values('3','aaa',3000)";
             //3.获取Connection对象
-            conn = DriverManager.getConnection("jdbc:mysql:///db3", "root", "root");
+            conn = DriverManager.getConnection("jdbc:mysql:///demo2", "root", "1123");
             //4.获取执行sql的对象 Statement
             stmt = conn.createStatement();
             //5.执行sql

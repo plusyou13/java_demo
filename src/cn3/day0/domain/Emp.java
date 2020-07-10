@@ -82,7 +82,6 @@ public class Emp {
         this.bonus = bonus;
     }
 
-
     @Override
     public String toString() {
         return "Emp{" +
@@ -97,3 +96,4 @@ public class Emp {
                 '}';
     }
 }
+

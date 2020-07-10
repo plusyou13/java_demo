@@ -16,12 +16,13 @@ public class JDBCDemo5 {
             //1. 注册驱动
             Class.forName("com.mysql.jdbc.Driver");
             //2.获取连接对象
-            conn = DriverManager.getConnection("jdbc:mysql:///db3", "root", "root");
+            conn = DriverManager.getConnection("jdbc:mysql:///demo2", "root", "1123");
             //3.定义sql
             String sql  = "create table student (id int , name varchar(20))";
             //4.获取执行sql对象
             stmt = conn.createStatement();
             //5.执行sql
+            //DDL 不返回
             int count = stmt.executeUpdate(sql);
             //6.处理结果
             System.out.println(count);

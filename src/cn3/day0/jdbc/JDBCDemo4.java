@@ -17,7 +17,7 @@ public class JDBCDemo4 {
             //1. 注册驱动
             Class.forName("com.mysql.jdbc.Driver");
             //2.获取连接对象
-            conn = DriverManager.getConnection("jdbc:mysql:///db3", "root", "root");
+            conn = DriverManager.getConnection("jdbc:mysql:///demo2", "root", "1123");
            //conn = JDBCUtils.getConnection("jdbc:mysql:///db3", "root", "root");
             //3.定义sql
             String sql  = "delete from account where id = 3";

@@ -13,7 +13,11 @@ import java.util.List;
 public class JDBCDemo8 {
 
     public static void main(String[] args) {
-        List<Emp> list = new JDBCDemo8().findAll2();
+        List<Emp> list = new JDBCDemo8().findAll();
+        for (Object object : list) {
+            System.out.println(object);
+        }
+
         System.out.println(list);
         System.out.println(list.size());
     }
@@ -30,7 +34,7 @@ public class JDBCDemo8 {
             //1.注册驱动
             Class.forName("com.mysql.jdbc.Driver");
             //2.获取连接
-            conn = DriverManager.getConnection("jdbc:mysql:///db3", "root", "root");
+            conn = DriverManager.getConnection("jdbc:mysql:///demo2", "root", "1123");
             //3.定义sql
             String sql = "select * from emp";
             //4.获取执行sql的对象
@@ -111,7 +115,7 @@ public class JDBCDemo8 {
            /* //1.注册驱动
             Class.forName("com.mysql.jdbc.Driver");
             //2.获取连接
-            conn = DriverManager.getConnection("jdbc:mysql:///db3", "root", "root");*/
+            conn = DriverManager.getConnection("jdbc:mysql:///demo2", "root", "1123");*/
             conn = JDBCUtils.getConnection();
             //3.定义sql
             String sql = "select * from emp";
