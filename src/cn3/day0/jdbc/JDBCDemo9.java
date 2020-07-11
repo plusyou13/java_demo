@@ -74,8 +74,15 @@ public class JDBCDemo9 {
         return false;
     }
 
+
+
+
+
+
+
     /**
-     * 登录方法,使用PreparedStatement实现
+     * 登录方法,使用PreparedStatement实现,防止sql注入，
+     * 以后用这个来完成增删改查的所有操作。效率更高。
      */
     public boolean login2(String username ,String password){
         if(username == null || password == null){
