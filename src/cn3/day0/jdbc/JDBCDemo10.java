@@ -20,7 +20,7 @@ public class JDBCDemo10 {
         try {
             //1.获取连接
             conn = JDBCUtils.getConnection();
-            //开启事务
+            //开启事务，
             conn.setAutoCommit(false);
 
             //2.定义sql
@@ -43,12 +43,13 @@ public class JDBCDemo10 {
             int i = 3/0;
 
             pstmt2.executeUpdate();
-            //提交事务
+            //提交事务，
             conn.commit();
         } catch (Exception e) {
             //事务回滚
             try {
                 if(conn != null) {
+                    //事务的回滚操作
                     conn.rollback();
                 }
             } catch (SQLException e1) {
