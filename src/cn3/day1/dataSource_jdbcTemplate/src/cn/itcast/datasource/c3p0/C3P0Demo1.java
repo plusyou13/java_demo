@@ -1,4 +1,4 @@
-package cn3.day1.day05_dataSource_jdbcTemplate.src.cn.itcast.datasource.c3p0;
+package cn3.day1.dataSource_jdbcTemplate.src.cn.itcast.datasource.c3p0;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 

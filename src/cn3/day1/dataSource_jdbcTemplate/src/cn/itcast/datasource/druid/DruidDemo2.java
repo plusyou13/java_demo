@@ -1,6 +1,6 @@
-package cn3.day1.day05_dataSource_jdbcTemplate.src.cn.itcast.datasource.druid;
+package cn3.day1.dataSource_jdbcTemplate.src.cn.itcast.datasource.druid;
 
-import cn3.day1.day05_dataSource_jdbcTemplate.src.cn.itcast.utils.JDBCUtils;
+import cn3.day1.dataSource_jdbcTemplate.src.cn.itcast.utils.JDBCUtils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

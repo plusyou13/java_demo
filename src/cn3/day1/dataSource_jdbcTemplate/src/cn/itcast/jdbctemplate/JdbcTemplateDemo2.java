@@ -1,7 +1,7 @@
-package cn3.day1.day05_dataSource_jdbcTemplate.src.cn.itcast.jdbctemplate;
+package cn3.day1.dataSource_jdbcTemplate.src.cn.itcast.jdbctemplate;
 
-import cn3.day1.day05_dataSource_jdbcTemplate.src.cn.itcast.domain.Emp;
-import cn3.day1.day05_dataSource_jdbcTemplate.src.cn.itcast.utils.JDBCUtils;
+import cn3.day1.dataSource_jdbcTemplate.src.cn.itcast.domain.Emp;
+import cn3.day1.dataSource_jdbcTemplate.src.cn.itcast.utils.JDBCUtils;
 import org.junit.Test;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;

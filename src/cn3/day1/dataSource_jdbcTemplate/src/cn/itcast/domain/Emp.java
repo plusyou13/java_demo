@@ -1,4 +1,4 @@
-package cn3.day1.day05_dataSource_jdbcTemplate.src.cn.itcast.domain;
+package cn3.day1.dataSource_jdbcTemplate.src.cn.itcast.domain;
 
 import java.util.Date;
 

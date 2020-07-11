@@ -1,9 +1,8 @@
-package cn3.day1.day05_dataSource_jdbcTemplate.src.cn.itcast.datasource.druid;
+package cn3.day1.dataSource_jdbcTemplate.src.cn.itcast.datasource.druid;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 
 import javax.sql.DataSource;
-import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.util.Properties;
