@@ -29,6 +29,7 @@
 
     <label for="username"> 用户名 </label>：<input type="text" name="username" placeholder="请输入用户名" id="username"><br>
     密码：<input type="password" name="password" placeholder="请输入密码"><br>
+<!--    密码：<input type="text" name="password" value="请输入密码"><br>-->
     性别：<input type="radio" name="gender" value="male" >  男
          <input type="radio" name="gender" value="female" checked>  女
             <br>
@@ -36,8 +37,12 @@
         <input type="checkbox" name="hobby" value="java"  checked> Java
         <input type="checkbox" name="hobby" value="game"> 游戏<br>
 
+<!--选择文件-->
     图片：<input type="file" name="file"><br>
+<!--    隐藏域   用于提交信息-->
     隐藏域：<input type="hidden" name="id" value="aaa"> <br>
+
+
 
     取色器：<input type="color" name="color"><br>
     生日：<input type="date" name="birthday"> <br>
@@ -56,8 +61,11 @@
         <textarea cols="20" rows="5" name="des"></textarea>
 
     <br>
+<!--    提交按钮-->
     <input type="submit" value="登录" >
+<!--    普通按钮-->
     <input type="button" value="一个按钮" ><br>
+<!--    图片提交按钮-->
     <input type="image" src="img/regbtn.jpg">
 
 
