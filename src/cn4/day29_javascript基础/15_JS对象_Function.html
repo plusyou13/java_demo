@@ -46,7 +46,7 @@
         }
 
         //fun2(3,4);
-
+<!--length:代表形参的个数-->
         //alert(fun2.length);
         var fun3 = function(a,b){
             alert(a+b);
@@ -67,7 +67,7 @@
 
         //fun2(3,4);
 
-        //方法调用
+        //方法调用,在JS中，方法的调用只与方法的名称有关，和参数列表无关
         //fun2(1,2);
         //fun2(1);
         //fun2();
@@ -75,12 +75,15 @@
 
         /*
          * 求两个数的和
+         不用写返回值类型。
          */
         /*function  add(a , b){
             return a + b;
         }*/
         /**
          * 求任意个数的和
+          在方法声明中有一个隐藏的内置对象（数组），
+          arguments,封装所有的实际参数
          */
         function add (){
            var sum = 0;
