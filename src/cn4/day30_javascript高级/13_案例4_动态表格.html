@@ -67,6 +67,9 @@
 </table>
 
 
+<!--tabale就是表，tr其实就是table row也就bai是表中的行，-->
+<!--td同理du就是一个zhi单元格。所以一个表中有多行，每个行里可dao以有多个单元格。-->
+
 <script>
     /*
         分析：
@@ -105,14 +108,19 @@
         var td_gender = document.createElement("td");
         var text_gender = document.createTextNode(gender);
         td_gender.appendChild(text_gender);
+
         //a标签的td
         var td_a = document.createElement("td");
         var ele_a = document.createElement("a");
+        //点击不跳转，<!-- 1.当用户链接时，void(0)计算为0,用户点击不会发生任何效果 -->
         ele_a.setAttribute("href","javascript:void(0);");
+        //删除
         ele_a.setAttribute("onclick","delTr(this);");
         var text_a = document.createTextNode("删除");
         ele_a.appendChild(text_a);
         td_a.appendChild(ele_a);
+
+
 
         //4.创建tr
         var tr = document.createElement("tr");
@@ -146,7 +154,7 @@
     }
 
 
-    //删除方法
+    //删除方法，用table来删除tr。
     function delTr(obj){
         var table = obj.parentNode.parentNode.parentNode;
         var tr = obj.parentNode.parentNode;

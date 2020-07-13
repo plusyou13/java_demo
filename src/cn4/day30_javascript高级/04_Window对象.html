@@ -50,10 +50,10 @@
                     * window引用可以省略。  方法名();
 
          */
-
+//confirm("下班了吗？")
         /*alert("hello window");
         window.alert("hello a")*/
-        /*
+
          //确认框
          var flag = confirm("您确定要退出吗？");
 
@@ -64,15 +64,15 @@
          }else{
              //提示：手别抖...
              alert("手别抖...");
-         }*/
+         }
 
-        /*
+
 
                //输入框
-               var result =  prompt("请输入用户名");
-               alert(result);
-        */
-       /* //打开新窗口
+               //var result =  prompt("请输入用户名");
+               //alert(result);
+
+        //打开新窗口
         var openBtn = document.getElementById("openBtn");
         var newWindow;
         openBtn.onclick = function(){
@@ -85,29 +85,31 @@
         closeBtn.onclick = function(){
            // 关闭新窗口
             newWindow.close();
-        }*/
+        }
 
        //一次性定时器
-       //setTimeout("fun();",2000);
-        //var id = setTimeout(fun,2000);
-        //clearTimeout(id);
-       /* function fun(){
+       setTimeout("fun();",2000);
+       var id = setTimeout(fun,2000);
+        //清除定时器
+       clearTimeout(id);
+        function fun(){
             alert('boom~~');
         }
 
         //循环定时器
         var id = setInterval(fun,2000);
+        //清除定时器
         clearInterval(id);
-*/
 
 
-      /* //获取history
+
+      ///获取history
        var h1 =  window.history;
        var h2 = history;
 
        alert(h1);
        alert(h2);
-*/
+
         var openBtn = window.document.getElementById("openBtn");
         alert(openBtn);
         /*document.getElementById("");*/
