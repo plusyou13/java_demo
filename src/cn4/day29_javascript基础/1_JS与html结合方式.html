@@ -11,10 +11,8 @@
        内部JS
        外部JS
    -->
-    <script>
-        alert("Hello World");
-    </script>
 
+<!--加载js文件-->
     <script src="js/a.js"></script>
 
 </head>
@@ -23,4 +21,10 @@
 
 
 </body>
+
+<!--    可以写任意位置，但是定义的位置会影响执行顺序。-->
+<script>
+<!--    弹一个框框-->
+        alert("Hello World");
+    </script>
 </html>
