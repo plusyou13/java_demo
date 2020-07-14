@@ -19,18 +19,18 @@ package cn0.day2.demo11;
 public interface myInterfacePrivateB {
     public static void methodDefault1(){
         System.out.println("默认方法");
-        methodCommmon();
+//        methodCommmon();
 
     }
 
     public static void methodDefault2(){
         System.out.println("默认方法");
-        methodCommmon();
+//        methodCommmon();
 
     }
-    private static void methodCommmon(){
-        System.out.println("AAA");
-        System.out.println("BBB");
-        System.out.println("CCC");
-    }
+//    private static void methodCommmon(){
+//        System.out.println("AAA");
+//        System.out.println("BBB");
+//        System.out.println("CCC");
+  //  }
 }
