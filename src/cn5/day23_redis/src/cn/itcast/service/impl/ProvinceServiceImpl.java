@@ -5,8 +5,8 @@ import cn5.day23_redis.src.cn.itcast.dao.impl.ProvinceDaoImpl;
 import cn5.day23_redis.src.cn.itcast.domain.Province;
 import cn5.day23_redis.src.cn.itcast.jedis.util.JedisPoolUtils;
 import cn5.day23_redis.src.cn.itcast.service.ProvinceService;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
+//import com.fasterxml.jackson.core.JsonProcessingException;
+//import com.fasterxml.jackson.databind.ObjectMapper;
 import redis.clients.jedis.Jedis;
 
 import java.util.List;
@@ -38,12 +38,12 @@ public class ProvinceServiceImpl implements ProvinceService {
             //2.1从数据中查询
             List<Province> ps = dao.findAll();
             //2.2将list序列化为json
-            ObjectMapper mapper = new ObjectMapper();
-            try {
-                province_json = mapper.writeValueAsString(ps);
-            } catch (JsonProcessingException e) {
-                e.printStackTrace();
-            }
+//            ObjectMapper mapper = new ObjectMapper();
+//            try {
+//                province_json = mapper.writeValueAsString(ps);
+//            } catch (JsonProcessingException e) {
+//                e.printStackTrace();
+//            }
 
             //2.3 将json数据存入redis
             jedis.set("province",province_json);
