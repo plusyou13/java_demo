@@ -12,6 +12,7 @@ package cn0.day9.demo03.Lambda;
             ->:传递的意思,把参数传递给方法体{}
             {}:重写接口的抽象方法的方法体
  */
+
 public class Demo02Lambda {
     public static void main(String[] args) {
         //使用匿名内部类的方式,实现多线程
