@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/cn6/adapter" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/bridge" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/builder" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/command" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/composite" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/decorator" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/facade" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/factory" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/flyweight" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/interpreter" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/iterator" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/mediator" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/memento" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/money" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/observer" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/principle" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/prototype" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/proxy" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/responsibilitychain" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/singleton" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/state" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/strategy" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/template" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/uml" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/cn6/visitor" charset="GB2312" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
